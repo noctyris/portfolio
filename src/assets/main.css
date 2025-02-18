@@ -3,7 +3,10 @@
 #app {
   max-width: 1280px;
   max-height: 720px;
+  aspect-ratio: 16/9;
+  object-fit: contain;
   height: 100lvh;
+  width: 100lvh;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
