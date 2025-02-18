@@ -1,0 +1,14 @@
+<template>
+	<div>
+		Skills
+	</div>
+</template>
+
+<style scoped>
+div {
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 3;
+}
+</style>
