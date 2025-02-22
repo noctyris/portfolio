@@ -1,6 +1,6 @@
 <script setup>
 import SocialMedia from "./components/SocialMedia.vue";
-import ProfileCard from "./components/ProfileCard.vue";
+import ProfileCard from "./components/Profile.vue";
 import Projects from "./components/Projects.vue";
 import Skills from "./components/Skills.vue";
 </script>
