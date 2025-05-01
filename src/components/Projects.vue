@@ -3,8 +3,8 @@ import ProjectCard from "./ProjectCard.vue"
 </script>
 
 <template>
-	<div>
-		<p>Projects</p>
+	<div class="container">
+		<p class="title">Projects</p>
 		<div class="sub">
       <ProjectCard link="https://sky-noctyris.vercel.app" img="moon.jpg" name="Sky" />
       <ProjectCard link="https://pokedex-he.vercel.app" img="pokedex.svg" name="Pokedex" />
@@ -16,7 +16,7 @@ import ProjectCard from "./ProjectCard.vue"
 </template>
 
 <style scoped>
-div {
+.container {
 	grid-row-start: 2;
 	grid-row-end: 2;
 	grid-column-start: 1;
@@ -37,5 +37,11 @@ div {
     text-decoration: none;
     color: var(--accent-color);
   }
+}
+.title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: var(--color-text);
+  text-shadow: 0 0 5px var(--color-background-mute);
 }
 </style>

@@ -23,7 +23,7 @@ import Skills from "./components/Skills.vue";
   gap: 20px;
   * {
     border-radius: 30px;
-    padding: 30px;
+    padding: 20px;
     background-color: var(--color-background-mute);
     box-shadow: 0 0 5px var(--color-background-mute);
     accent-color: var(--accent-color);
