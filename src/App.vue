@@ -26,6 +26,7 @@ import Skills from "./components/Skills.vue";
     padding: 30px;
     background-color: var(--color-background-mute);
     box-shadow: 0 0 5px var(--color-background-mute);
+    accent-color: var(--accent-color);
   }
 }
 </style>
