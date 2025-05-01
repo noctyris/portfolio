@@ -1,6 +1,14 @@
+<script setup>
+import SocialMediaCard from "./SocialMediaCard.vue"
+</script>
+
 <template>
 	<div class="container">
 		<p class="title">SocialMedia</p>
+		<SocialMediaCard
+			:link=""
+			:img=""
+		/>
 	</div>
 </template>
 
