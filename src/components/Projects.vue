@@ -6,12 +6,12 @@ import ProjectCard from "./ProjectCard.vue"
 	<div>
 		<p>Projects</p>
 		<div class="sub">
-      <ProjectCard link="https://github.com/noctyris/sky" />
-      <ProjectCard link="https://github.com/noctyris/pokedex" />
-      <ProjectCard link="https://github.com/noctyris/PyXie" />
-      <ProjectCard link="https://github.com/noctyris/sky" />
+      <ProjectCard link="https://sky-noctyris.vercel.app" img="moon.jpg" name="Sky" />
+      <ProjectCard link="https://github.com/noctyris/pokedex" img="" name="" />
+      <ProjectCard link="https://github.com/noctyris/PyXie" img="" name="" />
+      <ProjectCard link="https://github.com/noctyris/sky" img="" name="" />
 		</div>
-		<p>See more on <a href="https://github.com/noctyris">GitHub</a></p>
+		<!-- <p>See more on <a href="https://github.com/noctyris">GitHub</a></p> -->
 	</div>
 </template>
 
@@ -27,7 +27,7 @@ div {
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: calc(100% - 4.2rem);
+    height: calc(100% - 10rem);
     * {
       border-radius: 20px;
       padding: 10px;
