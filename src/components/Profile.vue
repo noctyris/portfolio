@@ -5,6 +5,7 @@
     </div>
     <div class="section">
       <p>Student at Sainte-Anne d'Auray (France)</p>
+      <p>French Baccalaureate - 1<sup>ère</sup> GT</p>
     </div>
   </div>
 </template>
