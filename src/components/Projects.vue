@@ -7,9 +7,9 @@ import ProjectCard from "./ProjectCard.vue"
 		<p>Projects</p>
 		<div class="sub">
       <ProjectCard link="https://sky-noctyris.vercel.app" img="moon.jpg" name="Sky" />
-      <ProjectCard link="https://github.com/noctyris/pokedex" img="" name="" />
-      <ProjectCard link="https://github.com/noctyris/PyXie" img="" name="" />
-      <ProjectCard link="https://github.com/noctyris/sky" img="" name="" />
+      <ProjectCard link="https://pokedex-he.vercel.app" img="pokedex.svg" name="Pokedex" />
+      <ProjectCard link="https://github.com/noctyris/PyXie" img="pyxie.png" name="PyXie" />
+      <ProjectCard link="https://github.com/noctyris/spaceshooter" img="spaceshooter.png" name="SpaceShooter" />
 		</div>
 		<!-- <p>See more on <a href="https://github.com/noctyris">GitHub</a></p> -->
 	</div>
