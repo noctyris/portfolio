@@ -44,6 +44,10 @@ import SocialMediaCard from "./SocialMediaCard.vue"
   font-size: 1.2rem;
   font-weight: 900;
   color: var(--color-text);
-  text-shadow: 0 0 5px var(--color-background-mute);
+  transition: all 0.3s ease-in-out;
+}
+.container:hover .title {
+  color: whitesmoke;
+  text-shadow: 0 0 10px white;
 }
 </style>
