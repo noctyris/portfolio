@@ -12,11 +12,11 @@ const props = defineProps(["link", "img"])
 
 <style scoped>
 .card {
-    width: 90%;
-    aspect-ratio: 1/1;
-    a img {
-        aspect-ratio: 1/1;
-        height: 10lvh;
-    }
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    max-width: 75px;
+    margin: auto;
 }
 </style>

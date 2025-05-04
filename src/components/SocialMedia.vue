@@ -35,6 +35,8 @@ import SocialMediaCard from "./SocialMediaCard.vue"
 }
 .sm-container {
 	display: grid;
+	align-items: center;
+	justify-content: center;
 	gap: 1rem;
 	grid-template-columns: repeat(3, 1fr);
 }
