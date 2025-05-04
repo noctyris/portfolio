@@ -5,14 +5,18 @@ const props = defineProps(["link", "img"])
 <template>
 	<div class="card">
         <a :href="link" target="_blank" rel="noopener noreferrer">
-            <img :src="img" :alt="name" class="card-img-top" />
+            <img :src="'/icons/' + img" class="card-img-top" style="object-fit: cover; width: 100%; height: 100%;" />
         </a>
     </div>
 </template>
 
 <style scoped>
 .card {
-    width: 50px;
+    width: 90%;
     aspect-ratio: 1/1;
+    a img {
+        aspect-ratio: 1/1;
+        height: 10lvh;
+    }
 }
 </style>

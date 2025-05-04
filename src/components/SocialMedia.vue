@@ -5,10 +5,24 @@ import SocialMediaCard from "./SocialMediaCard.vue"
 <template>
 	<div class="container">
 		<p class="title">SocialMedia</p>
-		<SocialMediaCard
-			:link=""
-			:img=""
-		/>
+		<div class="sm-container">
+			<SocialMediaCard
+				link="https://instagram.com/hoel__"
+				img="instagram.svg"
+			/>
+			<SocialMediaCard
+				link="https://www.astroimg.com/user/525148765653307395"
+				img="astroimg.webp"
+			/>
+			<SocialMediaCard
+				link="https://github.com/noctyris"
+				img="github.svg"
+			/>
+			<SocialMediaCard
+				link="https://www.linkedin.com/in/hoel-jamier-564b06327"
+				img="linkedin.ico"
+			/>
+		</div>
 	</div>
 </template>
 
@@ -18,6 +32,11 @@ import SocialMediaCard from "./SocialMediaCard.vue"
 	grid-column-end: 2;
 	grid-row-start: 1;
 	grid-row-end: 2;
+}
+.sm-container {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: repeat(3, 1fr);
 }
 .title {
   font-size: 1.2rem;
